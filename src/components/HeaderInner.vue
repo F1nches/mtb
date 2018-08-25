@@ -6,7 +6,7 @@
       <router-link to="/about">About</router-link>
     </div> -->
       <div class="logo">
-        <img src="@/assets/mtbt-logo.svg"/>
+        <router-link to="/"><img src="@/assets/mtbt-logo.svg"/></router-link>
       </div>
       <div class="nav-wrapper">
         <router-link to="/">Home</router-link>
@@ -37,6 +37,12 @@ export default {
   height: 100px;
 }
 
+.logo img:hover {
+  animation: spin 0.4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
 .nav > .container {
   display: flex;
   justify-content: space-between;
@@ -47,6 +53,20 @@ export default {
   color: #231F20;
   text-transform: uppercase;
   margin: 10px 20px;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 
 </style>

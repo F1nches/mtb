@@ -2,6 +2,7 @@
   <div class="bike-comparison">
     <HeaderInner/>
     <PageTitle/>
+    <BikeComparisonChart/>
   </div>
 </template>
 
