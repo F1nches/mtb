@@ -1,7 +1,7 @@
 <template>
   <div class="bike-comparison">
     <HeaderInner/>
-    <PageTitle/>
+    <PageTitle :title="title" :background="titleBackground"/>
     <BikeComparisonChart/>
   </div>
 </template>
@@ -18,6 +18,12 @@ export default {
     HeaderInner,
     PageTitle,
     BikeComparisonChart
+  },
+  data() {
+    return {
+      title: require('@/assets/page-title-bike-comparison.svg'),
+      titleBackground: require('@/assets/bikecomparison-bg.jpeg')
+    }
   }
 }
 </script>

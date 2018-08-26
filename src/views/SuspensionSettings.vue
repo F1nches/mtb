@@ -1,7 +1,7 @@
 <template>
   <div class="suspension-settings">
     <HeaderInner/>
-    <PageTitle/>
+    <PageTitle :title="title" :background="titleBackground"/>
   </div>
 </template>
 
@@ -17,6 +17,12 @@ export default {
     HeaderInner,
     PageTitle,
     SuspensionSettings
+  },
+  data() {
+    return {
+      title: require('@/assets/page-title-suspension-settings.svg'),
+      titleBackground: require('@/assets/suspension-bg.jpeg')
+    }
   }
 }
 </script>

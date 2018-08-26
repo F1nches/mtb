@@ -1,0 +1,95 @@
+{
+  "bikes": [
+
+    {
+      "brand": "Diamondback",
+      "model": "Release 5C",
+      "image": "release5c.jpg",
+      "fork": {
+        "model": "Fox 36 Performance Elite Float",
+        "travel": 150
+      },
+      "rearShock": {
+        "model": "Fox",
+        "travel": 150
+      },
+      "handlebars": {
+        "model": "Raceface Æffect R",
+        "width": 780
+      },
+      "rearDerailleur": {
+        "model": "SRAM XO1 Eagle",
+        "speeds": 12
+      },
+      "shifter": "SRAM XO1 Eagle",
+      "cogset": "SRAM XG1295 Eagle, 12 Speed, 10-50T",
+      "chain": "SRAM XO1 Eagle",
+      "wheels": "RaceFace Arc30",
+      "tires": {
+        "front": {
+          "model": "Maxxis Minion DHF Exo",
+          "size": "27.5x2.5"
+        },
+        "rear": {
+          "model": "Maxxis Minion DHR Exo",
+          "size": "27.5x2.4"
+        }
+      },
+      "brakes": {
+        "model": "SRAM Guide RS Hydraulic",
+        "rotors": "180/180"
+      },
+      "pedals": "DB4L CNC Platform",
+      "grips": "Ergon GE1 Lock-On",
+      "seat": "WTB Volt Race",
+      "seatpost": "KS LEV Integra Internal Dropper",
+      "extras": "DB Shock pump, DB Torque Wrench"
+    },
+
+    {
+      "brand": "YT",
+      "model": "Jeffsy 27 CF",
+      "image": "jeffsyal.png",
+      "fork": {
+        "model": "Rockshox Pike RCT3",
+        "travel": 150
+      },
+      "rearShock": {
+        "model": "Rockshox Deluxe RT3",
+        "travel": 150
+      },
+      "handlebars": {
+        "model": "Raceface Turbine R",
+        "width": 780
+      },
+      "rearDerailleur": {
+        "model": "Shimano XT",
+        "speeds": 12
+      },
+      "shifter": "Shimano XT",
+      "cogset": "E*THIRTEEN TRS+, 11 Speed, 9-46T",
+      "chain": "SHIMANO CN-HG601",
+      "wheels": "E*THIRTEEN TRS",
+      "tires": {
+        "front": {
+          "model": "E*THIRTEEN TRSR",
+          "size": "27.5x2.35"
+        },
+        "rear": {
+          "model": "E*THIRTEEN TRS+",
+          "size": "27.5x2.35"
+        }
+      },
+      "brakes": {
+        "model": "SRAM Guide RS Hydraulic",
+        "rotors": "180/180"
+      },
+      "pedals": "None",
+      "grips": "ODI Elite Motion Lock-On",
+      "seat": "SDG Fly Mtn",
+      "seatpost": "E*THIRTEEN TRS+ Internal Dropper",
+      "extras": "Icetoolz Tool Set"
+    }
+
+  ]
+}

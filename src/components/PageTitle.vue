@@ -3,7 +3,7 @@
     <div class="hero container-fluid" v-bind:style="{ background: 'url(' + background + ') no-repeat center center/cover'}">
       <div class="background-overlay">
         <div class="header-content">
-          <img v-bind:src="pageTitle"/>
+          <img v-bind:src="title"/>
         </div>
         <div class="hero-bottom">
           <img v-bind:src="pageTitleAfter"/>
@@ -17,12 +17,18 @@
 
 export default {
   name: 'PageTitle',
+  props: [
+    "title",
+    "background"
+  ],
   data() {
     return {
-      background: require('@/assets/bikecomparison-bg.jpeg'),
       pageTitleAfter: require('@/assets/inner-bottom-one.svg'),
       pageTitle: require('@/assets/page-title-bike-comparison.svg')
     }
+  },
+  computed: {
+
   }
 }
 </script>

@@ -1,0 +1,50 @@
+{
+  "bikes": [
+
+    {
+      "brand": "",
+      "model": "",
+      "image": "",
+      "fork": {
+        "model": "",
+        "travel": 0
+      },
+      "rearShock": {
+        "model": "",
+        "travel": 0
+      },
+      "handlebars": {
+        "model": "",
+        "width": 0
+      },
+      "rearDerailleur": {
+        "model": "",
+        "speeds": 0
+      },
+      "shifter": "",
+      "cogset": "",
+      "chain": "",
+      "wheels": "",
+      "tires": {
+        "front": {
+          "model": "",
+          "size": ""
+        },
+        "rear": {
+          "model": "",
+          "size": ""
+        }
+      },
+      "brakes": {
+        "model": "",
+        "rotors": ""
+      },
+      "pedals": "",
+      "grips": "",
+      "seat": "",
+      "seatpost": "",
+      "extras": ""
+    }
+
+  ]
+}
